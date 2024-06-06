@@ -1,0 +1,36 @@
+baseURL = 'https://blog.werrobots.cloud'
+languageCode = 'en-us'
+title = 'We R Robots'
+
+theme = "m10c"
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/index.html"
+  weight = 1
+
+
+[params]
+  avatar = "avatar.jpg"
+  description = "Assimilate the Population."
+  author = "We R Robots"
+
+[[params.social]]
+  icon = "linkedin"
+  name = "My LinkedIn"
+  url = "https://www.linkedin.com/in/brandon-honaker"
+  weight = 1
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/ENsef"
+  weight = 2
+
+[params.style]
+  darkestColor = "#004d4d"
+  darkColor = "#212121"
+  lightColor = "#8ed6d6"
+  lightestColor = "#f5f5f5"
+  primaryColor = "#ffffff"

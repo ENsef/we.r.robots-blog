@@ -1,0 +1,6 @@
+[submodule "we.r.robots-blog/themes/hugo.386"]
+	path = we.r.robots-blog/themes/hugo.386
+	url = https://gitlab.com/jmfergeau/hugo.386
+[submodule "we.r.robots-blog/themes/m10c"]
+	path = we.r.robots-blog/themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c.git
