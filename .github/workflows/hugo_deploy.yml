@@ -24,7 +24,7 @@ jobs:
     - name: Deploy to S3
       uses: shallwefootball/s3-upload-action@master
       with:
-        source_dir: 'public'
+        source_dir: 'we.r.robots-blog/public'
         destination_dir: 'public'
         aws_bucket: ${{ secrets.AWS_S3_BUCKET }}
         aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
