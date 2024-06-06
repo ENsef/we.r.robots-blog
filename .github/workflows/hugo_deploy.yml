@@ -18,7 +18,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify --loglevel info
+      run: hugo --minify --logLevel info
       working-directory: ./we.r.robots-blog
 
     - name: Deploy to S3
