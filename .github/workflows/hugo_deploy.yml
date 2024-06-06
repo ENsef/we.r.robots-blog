@@ -1,6 +1,14 @@
+name: Deploy Hugo Site
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v4
     - name: Setup Hugo
@@ -8,8 +16,10 @@ jobs:
       with:
         hugo-version: 'latest'
         extended: true
+
     - name: Build
       run: hugo --minify
+
     - name: Deploy to S3
       uses: shallwefootball/s3-upload-action@master
       with:
