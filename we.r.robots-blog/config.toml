@@ -4,10 +4,17 @@ title = 'We R Robots'
 
 theme = "m10c"
 
-[[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/index.html"
+[deployment]
+[[deployment.targets]]
+  name = "production"
+
+#S3 Target Bucket
+  URL = "s3://we-r-robots-blog?region=us-east-2"
+ 
+[[menu.main]] 
+  identifier = "home" 
+  name = "Home" 
+  url = "/index.html" 
   weight = 1
 
 
