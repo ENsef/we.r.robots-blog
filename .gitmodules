@@ -4,3 +4,6 @@
 [submodule "we.r.robots-blog/themes/m10c"]
 	path = we.r.robots-blog/themes/m10c
 	url = https://github.com/vaga/hugo-theme-m10c.git
+[submodule "themes/m10c"]
+	path = themes/m10c
+	url = https://github.com/vaga/hugo-theme-m10c.git
