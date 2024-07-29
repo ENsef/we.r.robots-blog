@@ -1,0 +1,4 @@
+# Ignore GPG encrypted credentials and private keys
+*.gpg
+*.asc
+*.pgp
