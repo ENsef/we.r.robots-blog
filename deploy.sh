@@ -18,11 +18,11 @@ aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DISTRIBUTIO
 echo "Building and minifying the Hugo site..."
 hugo --minify --verbose
 
-# Build and Deploy with Hugo
-echo "Building and deploying site with Hugo..."
+# Deploy with Hugo
+echo "Deploying site with Hugo..."
 hugo deploy --verbose
 
-# Optional: Clear AWS CLI configuration for security
+# Clear AWS CLI configuration for security
 aws configure set aws_access_key_id ""
 aws configure set aws_secret_access_key ""
 aws configure set default.region ""
