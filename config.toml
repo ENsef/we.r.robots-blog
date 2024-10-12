@@ -8,9 +8,9 @@ theme = "m10c"
 [[deployment.targets]]
   name = "production"
 
-#S3 Target Bucket
+# S3 Target Bucket
   URL = "s3://we-r-robots-blog?region=us-east-2"
- 
+
 [[menu.main]] 
   identifier = "home" 
   name = "Home" 

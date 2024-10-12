@@ -1,38 +1,44 @@
 {{ define "main" }}
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title" style="font-size: 48px; font-weight: bold;">{{ .Title }}</h1>
-      {{ with .Resources.GetMatch "header_image*" }}
-      <img src="{{ .RelPermalink }}" alt="Header image for {{ $.Title }}" class="post-header-image" style="max-height: 500px; height: auto; object-fit: contain;">
-      {{ end }}
-      {{- if ne .Type "page" }}
-      <div class="post-meta">
-        <div>
-          {{ partial "icon.html" (dict "ctx" $ "name" "calendar") }}
-          {{ .PublishDate.Format "Jan 2, 2006" }}
-        </div>
-	<div>
-          {{ partial "icon.html" (dict "ctx" $ "name" "clock") }}
-          {{ .ReadingTime }} min read
-        </div>
-	{{- with .Params.tags }}
-        <div>
-          {{ partial "icon.html" (dict "ctx" $ "name" "tag") }}
-          {{- range . -}}
-            {{ with $.Site.GetPage (printf "/%s/%s" "tags" . ) }}
-              <a class="tag" href="{{ .Permalink }}">{{ .Title }}</a>
+
+<div class="post-header">
+    <h1 id="title" class="post-title" style="font-size: 48px; font-weight: bold; text-align: center;">{{ .Title }}</h1>
+
+    {{ $image := .Resources.GetMatch .Params.image }}
+    {{ with $image }}
+        <img src="{{ .RelPermalink }}" alt="Header image for {{ $.Title }}" class="post-header-image" style="max-width: 85%; height: auto; object-fit: contain; display: block; margin-left: auto; margin-right: auto;">
+        <br>
+    {{ end }}
+
+    {{- if ne .Type "page" }}
+        <div class="post-meta">
+            <div>
+                {{ partial "icon.html" (dict "ctx" $ "name" "calendar") }}
+                {{ .PublishDate.Format "Jan 2, 2006" }}
+            </div>
+            <div>
+                {{ partial "icon.html" (dict "ctx" $ "name" "clock") }}
+                {{ .ReadingTime }} min read
+            </div>
+            {{- with .Params.tags }}
+                <div>
+                    {{ partial "icon.html" (dict "ctx" $ "name" "tag") }}
+                    {{- range . -}}
+                        {{ with $.Site.GetPage (printf "/%s/%s" "tags" . ) }}
+                            <a href="{{ .Permalink }}" class="tag">{{ .Title }}</a>
+                        {{- end }}
+                    {{- end }}
+                </div>
             {{- end }}
-          {{- end }}
         </div>
-	{{- end }}
-      </div>
-      {{- end }}
-    </header>
-    <div class="post-content">
-      {{ .Content }}
-    </div>
-    <div class="post-footer">
-      {{ template "_internal/disqus.html" . }}
-    </div>
-  </article>
+    {{- end }}
+</div>
+
+<div class="post-content">
+    {{ .Content }}
+</div>
+
+<div class="post-footer">
+    {{ template "_internal/disqus.html" . }}
+</div>
+
 {{ end }}

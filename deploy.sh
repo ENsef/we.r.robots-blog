@@ -9,6 +9,7 @@ aws configure set aws_secret_access_key "$AWS_SECRET_ACCESS_KEY"
 aws configure set default.region us-east-2  # Adjust the region as necessary
 
 # Clear public folder
+echo "Nuking Public Directory"
 rm -rf public/*
 
 # Create AWS Cloudfront invalidation to clear cache

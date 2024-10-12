@@ -1,7 +1,10 @@
 +++
-title = "How did I get here and why?"
-tags = ["hugo", "themes"]
-date = "2024-03-19"
+date = '2024-03-19T13:33:46-04:00'
+title = 'How did I get here and why?'
+type = 'post'
+tags = ["blog", "madness", "tech"]
+categories = []
+image = "header-image.jpg"
 +++
 
 How did I get here? Why is my keyboard split in half? Wait, what is up with all of my keys?!?! Why would I think that this mediocre typing score was even worth writing about? Let's go back a bit. I had been intrigued for some time now by the idea of a better typing experience, which led me to explore many ideas, including split keyboards with minimal keys. "More ergonomic!" they say... "Staggeringly efficient!" they boast yet again... It was hard not to get enticed by the proposition as I watched videos of coders whizzing around their computers with ease, switching layers with special modifier keys, and all while barely moving their hands.

@@ -1,8 +1,9 @@
 +++
 date = '{{ .Date }}'
 title = '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+type = 'post'
 tags = []
 categories = []
-image = "/image.jpg"
+image = "header-image.jpg"
 +++
 
