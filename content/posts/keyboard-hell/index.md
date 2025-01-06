@@ -1,6 +1,6 @@
 +++
 date = '2024-03-19T13:33:46-04:00'
-title = 'How did I get here and why?'
+title = 'How Did I Get Here?'
 type = 'post'
 tags = ["blog", "madness", "tech"]
 categories = []
@@ -13,4 +13,4 @@ A few weeks ago, I took the plunge and ordered the most appealing candidate I ha
 
 I release a drawn out sigh as I think to myself...just as I was coming up for air, I dive ever deeper. It's present day, my brain feels fried, and my fingers fatigued as I peck away at such blazing speeds it would surely make ANY grandmother proud. So why would I do this to myself? Wasn't it all going just fine before? And that is just it, it was, but who wants to be just fine?? I don't want to just be as good as I was yesterday; I want to be better and better, yet again, tomorrow. When did it become okay to slump into the mediocrity of "satisfactory"? The old mantras like, "If it isn't broke, don't fix it." and "that's how it's always been done" are a plague to my soul. Waking up each day, just as I did before, is such a tired old notion. Yes, You are right, it IS just a keyboard and will probably do very little in the way of pushing me to future successes. The underlying idea, however, I think there may be something to that. Complacency is, after all, the enemy of progress.
 
-Admittedly, my meager 14 WPM is not anything to write home about, and I have a very long road ahead before I find out if any of this was even worth it. As I slowly grind through the end of this long-winded rant, I am noticing the effect the limitation of my typing has had on my thought processes, forcing me out of that autopilot state and truly into the moment. Something of a rarity for me. Furthermore, I am proud that today I am less bound by my fears and uncertainties, such as posting this article. I am also amazed at what our minds can do! Even if I am typing slower than a snail, I just wrote this entire piece without looking at the keyboard, on a completely different design that I am just starting to learn. That's so freaking cool!
+Admittedly, my meager 14 WPM is not anything to write home about, and I have a very long road ahead before I find out if any of this was even worth it. As I slowly grind through the end of this long-winded rant, I am noticing the effect the limitation of my typing has had on my thought processes, forcing me out of that autopilot state and truly into the moment. Something of a rarity for me. Furthermore, I am proud that today I am less bound by my fears and uncertainties, such as posting this article. I am also amazed at what our minds can do! Even if I am typing slower than a snail, I just wrote this entire piece without looking at the keyboard, on a completely different layout that I am just starting to learn. That's so freaking cool!

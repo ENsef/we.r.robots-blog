@@ -26,13 +26,13 @@ theme = "m10c"
 [[params.social]]
   icon = "linkedin"
   name = "My LinkedIn"
-  url = "https://www.linkedin.com/in/brandon-honaker"
+  url = "https://www.linkedin.com/in/brandonhonaker"
   weight = 1
 
 [[params.social]]
   icon = "github"
   name = "My Github"
-  url = "https://github.com/ENsef"
+  url = "https://github.com/we-r-robots"
   weight = 2
 
 [params.style]
